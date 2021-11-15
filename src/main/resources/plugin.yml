@@ -1,0 +1,6 @@
+main: me.mrliam2614.PvpManager
+name: PVPManager
+version: 1.0
+commands:
+  pvp:
+    description: Manage pvp
