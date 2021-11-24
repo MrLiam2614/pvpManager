@@ -30,6 +30,8 @@ public class CmdPvp implements CommandExecutor {
             }else{
                 sender.sendMessage(plugin.getFacilitisAPI().strUtils.colored("&7[&cPvPManager&7] &aDo i need to enable or disable PVP?"));
             }
+        }else{
+            sender.sendMessage(plugin.getFacilitisAPI().strUtils.colored("&7[&cPvPManager&7] &cYou don't have permissions to do this command."));
         }
         return false;
     }
